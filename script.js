@@ -39,6 +39,9 @@ function login() {
         return;
     }
 
-    alert('Login successful!');
-    location.reload();
+    if (password === 'ZenTradesTest@123') {
+        window.location.href = "dashboard.html";
+    } else {
+        alert('Incorrect password. Please try again.');
+    }
 }
