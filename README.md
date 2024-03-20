@@ -9,7 +9,7 @@ Points taken care of:
 1. The user name field only accept an email format and the validation is done through Javascript.
 2. The password field is a masked field i.e. it does not reveals what the user is entering.
 3. The password field does not accepts any special character other than '@' and only gets accepted when it contains an uppercase letter and a number.
-4. Whenever the password '  ZenTradesTest@123' is enetered redirects the user to the dashboard page looking like:
+4. Whenever the password 'ZenTradesTest@123' is enetered redirects the user to the dashboard page looking like:
 ![image]()
 5. Clicking on the 'Forgot your password' link sends the user to send an email to 'support@smartserv.io' for resetting the password. Looking like:
 ![image]()
